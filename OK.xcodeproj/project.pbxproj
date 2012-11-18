@@ -7,106 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18EB41771658594400828D30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB41761658594400828D30 /* UIKit.framework */; };
-		18EB41791658594400828D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB41781658594400828D30 /* Foundation.framework */; };
-		18EB417B1658594400828D30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB417A1658594400828D30 /* CoreGraphics.framework */; };
-		18EB41811658594400828D30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EB417F1658594400828D30 /* InfoPlist.strings */; };
-		18EB41831658594400828D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB41821658594400828D30 /* main.m */; };
-		18EB41871658594400828D30 /* OKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB41861658594400828D30 /* OKAppDelegate.m */; };
-		18EB418E1658596100828D30 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB418D1658596100828D30 /* Storyboard.storyboard */; };
-		18EB419416585A3800828D30 /* OKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB419216585A3800828D30 /* OKTableViewController.m */; };
-		18EB419B165862E800828D30 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB419A165862E800828D30 /* Logo.png */; };
-		18EB41A3165864FA00828D30 /* OKWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB41A2165864FA00828D30 /* OKWebController.m */; };
-		18EB41BA165932AB00828D30 /* SplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB41B9165932AA00828D30 /* SplashView.m */; };
+		18EB41D8165937F800828D30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB41D7165937F800828D30 /* UIKit.framework */; };
+		18EB41DA165937F800828D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB41D9165937F800828D30 /* Foundation.framework */; };
+		18EB41DC165937F800828D30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB41DB165937F800828D30 /* CoreGraphics.framework */; };
+		18EB41DE165937F800828D30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB41DD165937F800828D30 /* CoreData.framework */; };
+		18EB41E4165937F800828D30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EB41E2165937F800828D30 /* InfoPlist.strings */; };
+		18EB41E6165937F800828D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB41E5165937F800828D30 /* main.m */; };
+		18EB41EA165937F800828D30 /* OKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB41E9165937F800828D30 /* OKAppDelegate.m */; };
+		18EB41ED165937F800828D30 /* OK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EB41EB165937F800828D30 /* OK.xcdatamodeld */; };
+		18EB41F41659384400828D30 /* OKStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB41F31659384400828D30 /* OKStoryboard.storyboard */; };
+		18EB41F616593B1800828D30 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB41F516593B1800828D30 /* Logo.png */; };
+		18EB41F916593BEF00828D30 /* OKSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB41F816593BEF00828D30 /* OKSplashView.m */; };
+		18EB420416593EA800828D30 /* OKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB420316593EA800828D30 /* OKViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18EB41721658594400828D30 /* OK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OK.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18EB41761658594400828D30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		18EB41781658594400828D30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		18EB417A1658594400828D30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18EB417E1658594400828D30 /* OK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OK-Info.plist"; sourceTree = "<group>"; };
-		18EB41801658594400828D30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		18EB41821658594400828D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18EB41841658594400828D30 /* OK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OK-Prefix.pch"; sourceTree = "<group>"; };
-		18EB41851658594400828D30 /* OKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKAppDelegate.h; sourceTree = "<group>"; };
-		18EB41861658594400828D30 /* OKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKAppDelegate.m; sourceTree = "<group>"; };
-		18EB418D1658596100828D30 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		18EB419116585A3800828D30 /* OKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKTableViewController.h; sourceTree = "<group>"; };
-		18EB419216585A3800828D30 /* OKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKTableViewController.m; sourceTree = "<group>"; };
-		18EB419A165862E800828D30 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
-		18EB41A1165864FA00828D30 /* OKWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKWebController.h; sourceTree = "<group>"; };
-		18EB41A2165864FA00828D30 /* OKWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKWebController.m; sourceTree = "<group>"; };
-		18EB41B8165932AA00828D30 /* SplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashView.h; sourceTree = "<group>"; };
-		18EB41B9165932AA00828D30 /* SplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashView.m; sourceTree = "<group>"; };
+		18EB41D3165937F800828D30 /* OK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EB41D7165937F800828D30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18EB41D9165937F800828D30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18EB41DB165937F800828D30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18EB41DD165937F800828D30 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18EB41E1165937F800828D30 /* OK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OK-Info.plist"; sourceTree = "<group>"; };
+		18EB41E3165937F800828D30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18EB41E5165937F800828D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EB41E7165937F800828D30 /* OK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OK-Prefix.pch"; sourceTree = "<group>"; };
+		18EB41E8165937F800828D30 /* OKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKAppDelegate.h; sourceTree = "<group>"; };
+		18EB41E9165937F800828D30 /* OKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKAppDelegate.m; sourceTree = "<group>"; };
+		18EB41EC165937F800828D30 /* OK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OK.xcdatamodel; sourceTree = "<group>"; };
+		18EB41F31659384400828D30 /* OKStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OKStoryboard.storyboard; sourceTree = "<group>"; };
+		18EB41F516593B1800828D30 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		18EB41F716593BEF00828D30 /* OKSplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKSplashView.h; sourceTree = "<group>"; };
+		18EB41F816593BEF00828D30 /* OKSplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKSplashView.m; sourceTree = "<group>"; };
+		18EB420216593EA800828D30 /* OKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKViewController.h; sourceTree = "<group>"; };
+		18EB420316593EA800828D30 /* OKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKViewController.m; sourceTree = "<group>"; };
+		18EB420A1659467200828D30 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		18EB420B1659467200828D30 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		18EB420C165946AE00828D30 /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		18EB420D165946AE00828D30 /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		18EB420E165946D000828D30 /* PageOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageOneViewController.h; sourceTree = "<group>"; };
+		18EB420F165946D000828D30 /* PageOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18EB416F1658594400828D30 /* Frameworks */ = {
+		18EB41D0165937F800828D30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EB41771658594400828D30 /* UIKit.framework in Frameworks */,
-				18EB41791658594400828D30 /* Foundation.framework in Frameworks */,
-				18EB417B1658594400828D30 /* CoreGraphics.framework in Frameworks */,
+				18EB41D8165937F800828D30 /* UIKit.framework in Frameworks */,
+				18EB41DA165937F800828D30 /* Foundation.framework in Frameworks */,
+				18EB41DC165937F800828D30 /* CoreGraphics.framework in Frameworks */,
+				18EB41DE165937F800828D30 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18EB41671658594300828D30 = {
+		18EB41C8165937F800828D30 = {
 			isa = PBXGroup;
 			children = (
-				18EB417C1658594400828D30 /* OK */,
-				18EB41751658594400828D30 /* Frameworks */,
-				18EB41731658594400828D30 /* Products */,
+				18EB41DF165937F800828D30 /* OK */,
+				18EB41D6165937F800828D30 /* Frameworks */,
+				18EB41D4165937F800828D30 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18EB41731658594400828D30 /* Products */ = {
+		18EB41D4165937F800828D30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18EB41721658594400828D30 /* OK.app */,
+				18EB41D3165937F800828D30 /* OK.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18EB41751658594400828D30 /* Frameworks */ = {
+		18EB41D6165937F800828D30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18EB41761658594400828D30 /* UIKit.framework */,
-				18EB41781658594400828D30 /* Foundation.framework */,
-				18EB417A1658594400828D30 /* CoreGraphics.framework */,
+				18EB41D7165937F800828D30 /* UIKit.framework */,
+				18EB41D9165937F800828D30 /* Foundation.framework */,
+				18EB41DB165937F800828D30 /* CoreGraphics.framework */,
+				18EB41DD165937F800828D30 /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18EB417C1658594400828D30 /* OK */ = {
+		18EB41DF165937F800828D30 /* OK */ = {
 			isa = PBXGroup;
 			children = (
-				18EB41851658594400828D30 /* OKAppDelegate.h */,
-				18EB41861658594400828D30 /* OKAppDelegate.m */,
-				18EB41A1165864FA00828D30 /* OKWebController.h */,
-				18EB41A2165864FA00828D30 /* OKWebController.m */,
-				18EB41B8165932AA00828D30 /* SplashView.h */,
-				18EB41B9165932AA00828D30 /* SplashView.m */,
-				18EB419116585A3800828D30 /* OKTableViewController.h */,
-				18EB419216585A3800828D30 /* OKTableViewController.m */,
-				18EB418D1658596100828D30 /* Storyboard.storyboard */,
-				18EB417D1658594400828D30 /* Supporting Files */,
+				18EB41E8165937F800828D30 /* OKAppDelegate.h */,
+				18EB41E9165937F800828D30 /* OKAppDelegate.m */,
+				18EB420216593EA800828D30 /* OKViewController.h */,
+				18EB420316593EA800828D30 /* OKViewController.m */,
+				18EB420A1659467200828D30 /* MainViewController.h */,
+				18EB420B1659467200828D30 /* MainViewController.m */,
+				18EB420E165946D000828D30 /* PageOneViewController.h */,
+				18EB420F165946D000828D30 /* PageOneViewController.m */,
+				18EB420C165946AE00828D30 /* ModalViewController.h */,
+				18EB420D165946AE00828D30 /* ModalViewController.m */,
+				18EB41F716593BEF00828D30 /* OKSplashView.h */,
+				18EB41F816593BEF00828D30 /* OKSplashView.m */,
+				18EB41F31659384400828D30 /* OKStoryboard.storyboard */,
+				18EB41EB165937F800828D30 /* OK.xcdatamodeld */,
+				18EB41E0165937F800828D30 /* Supporting Files */,
 			);
 			path = OK;
 			sourceTree = "<group>";
 		};
-		18EB417D1658594400828D30 /* Supporting Files */ = {
+		18EB41E0165937F800828D30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				18EB419A165862E800828D30 /* Logo.png */,
-				18EB417E1658594400828D30 /* OK-Info.plist */,
-				18EB417F1658594400828D30 /* InfoPlist.strings */,
-				18EB41821658594400828D30 /* main.m */,
-				18EB41841658594400828D30 /* OK-Prefix.pch */,
+				18EB41F516593B1800828D30 /* Logo.png */,
+				18EB41E1165937F800828D30 /* OK-Info.plist */,
+				18EB41E2165937F800828D30 /* InfoPlist.strings */,
+				18EB41E5165937F800828D30 /* main.m */,
+				18EB41E7165937F800828D30 /* OK-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -114,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18EB41711658594400828D30 /* OK */ = {
+		18EB41D2165937F800828D30 /* OK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18EB418A1658594400828D30 /* Build configuration list for PBXNativeTarget "OK" */;
+			buildConfigurationList = 18EB41F0165937F900828D30 /* Build configuration list for PBXNativeTarget "OK" */;
 			buildPhases = (
-				18EB416E1658594400828D30 /* Sources */,
-				18EB416F1658594400828D30 /* Frameworks */,
-				18EB41701658594400828D30 /* Resources */,
+				18EB41CF165937F800828D30 /* Sources */,
+				18EB41D0165937F800828D30 /* Frameworks */,
+				18EB41D1165937F800828D30 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,68 +142,68 @@
 			);
 			name = OK;
 			productName = OK;
-			productReference = 18EB41721658594400828D30 /* OK.app */;
+			productReference = 18EB41D3165937F800828D30 /* OK.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18EB41691658594300828D30 /* Project object */ = {
+		18EB41CA165937F800828D30 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = OK;
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 18EB416C1658594400828D30 /* Build configuration list for PBXProject "OK" */;
+			buildConfigurationList = 18EB41CD165937F800828D30 /* Build configuration list for PBXProject "OK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 18EB41671658594300828D30;
-			productRefGroup = 18EB41731658594400828D30 /* Products */;
+			mainGroup = 18EB41C8165937F800828D30;
+			productRefGroup = 18EB41D4165937F800828D30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18EB41711658594400828D30 /* OK */,
+				18EB41D2165937F800828D30 /* OK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18EB41701658594400828D30 /* Resources */ = {
+		18EB41D1165937F800828D30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EB41811658594400828D30 /* InfoPlist.strings in Resources */,
-				18EB418E1658596100828D30 /* Storyboard.storyboard in Resources */,
-				18EB419B165862E800828D30 /* Logo.png in Resources */,
+				18EB41E4165937F800828D30 /* InfoPlist.strings in Resources */,
+				18EB41F41659384400828D30 /* OKStoryboard.storyboard in Resources */,
+				18EB41F616593B1800828D30 /* Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18EB416E1658594400828D30 /* Sources */ = {
+		18EB41CF165937F800828D30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EB41831658594400828D30 /* main.m in Sources */,
-				18EB41871658594400828D30 /* OKAppDelegate.m in Sources */,
-				18EB419416585A3800828D30 /* OKTableViewController.m in Sources */,
-				18EB41A3165864FA00828D30 /* OKWebController.m in Sources */,
-				18EB41BA165932AB00828D30 /* SplashView.m in Sources */,
+				18EB41E6165937F800828D30 /* main.m in Sources */,
+				18EB41EA165937F800828D30 /* OKAppDelegate.m in Sources */,
+				18EB41ED165937F800828D30 /* OK.xcdatamodeld in Sources */,
+				18EB41F916593BEF00828D30 /* OKSplashView.m in Sources */,
+				18EB420416593EA800828D30 /* OKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18EB417F1658594400828D30 /* InfoPlist.strings */ = {
+		18EB41E2165937F800828D30 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18EB41801658594400828D30 /* en */,
+				18EB41E3165937F800828D30 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -197,7 +211,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		18EB41881658594400828D30 /* Debug */ = {
+		18EB41EE165937F900828D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		18EB41891658594400828D30 /* Release */ = {
+		18EB41EF165937F900828D30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +256,7 @@
 			};
 			name = Release;
 		};
-		18EB418B1658594400828D30 /* Debug */ = {
+		18EB41F1165937F900828D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -253,7 +267,7 @@
 			};
 			name = Debug;
 		};
-		18EB418C1658594400828D30 /* Release */ = {
+		18EB41F2165937F900828D30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -267,25 +281,37 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18EB416C1658594400828D30 /* Build configuration list for PBXProject "OK" */ = {
+		18EB41CD165937F800828D30 /* Build configuration list for PBXProject "OK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18EB41881658594400828D30 /* Debug */,
-				18EB41891658594400828D30 /* Release */,
+				18EB41EE165937F900828D30 /* Debug */,
+				18EB41EF165937F900828D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18EB418A1658594400828D30 /* Build configuration list for PBXNativeTarget "OK" */ = {
+		18EB41F0165937F900828D30 /* Build configuration list for PBXNativeTarget "OK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18EB418B1658594400828D30 /* Debug */,
-				18EB418C1658594400828D30 /* Release */,
+				18EB41F1165937F900828D30 /* Debug */,
+				18EB41F2165937F900828D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18EB41EB165937F800828D30 /* OK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18EB41EC165937F800828D30 /* OK.xcdatamodel */,
+			);
+			currentVersion = 18EB41EC165937F800828D30 /* OK.xcdatamodel */;
+			path = OK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 18EB41691658594300828D30 /* Project object */;
+	rootObject = 18EB41CA165937F800828D30 /* Project object */;
 }

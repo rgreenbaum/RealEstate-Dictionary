@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18EB41711658594400828D30"
+               BlueprintIdentifier = "18EB41D2165937F800828D30"
                BuildableName = "OK.app"
                BlueprintName = "OK"
                ReferencedContainer = "container:OK.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18EB41711658594400828D30"
+            BlueprintIdentifier = "18EB41D2165937F800828D30"
             BuildableName = "OK.app"
             BlueprintName = "OK"
             ReferencedContainer = "container:OK.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18EB41711658594400828D30"
+            BlueprintIdentifier = "18EB41D2165937F800828D30"
             BuildableName = "OK.app"
             BlueprintName = "OK"
             ReferencedContainer = "container:OK.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18EB41711658594400828D30"
+            BlueprintIdentifier = "18EB41D2165937F800828D30"
             BuildableName = "OK.app"
             BlueprintName = "OK"
             ReferencedContainer = "container:OK.xcodeproj">
